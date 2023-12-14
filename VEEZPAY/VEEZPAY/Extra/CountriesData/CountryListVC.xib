@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CountryListVC" customModule="VEEZPAY" customModuleProvider="target">
+            <connections>
+                <outlet property="SearchBar" destination="DBo-Ls-SAS" id="JFM-KL-MrE"/>
+                <outlet property="tbl_Chatlist" destination="oMz-t1-1wf" id="Bqo-yj-lhh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e7L-vW-ql4">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search Country code" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HS1-wd-FKH">
+                            <rect key="frame" x="22" y="36" width="370" height="22.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ak-bR-NxW">
+                            <rect key="frame" x="22" y="81" width="57.5" height="22.5"/>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <searchBar contentMode="scaleAspectFit" searchBarStyle="minimal" placeholder="Type country name or code" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBo-Ls-SAS">
+                            <rect key="frame" x="12" y="103.5" width="390" height="56"/>
+                            <color key="barTintColor" red="0.31764706970000001" green="0.56078433989999998" blue="0.29803922770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="3B2-yT-RMf"/>
+                            </connections>
+                        </searchBar>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oMz-t1-1wf">
+                            <rect key="frame" x="0.0" y="174.5" width="414" height="599.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="5eQ-Ms-ys0"/>
+                                <outlet property="delegate" destination="-1" id="4SD-ly-zeG"/>
+                            </connections>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="HS1-wd-FKH" secondAttribute="trailing" constant="22" id="2JF-nQ-3y7"/>
+                        <constraint firstItem="DBo-Ls-SAS" firstAttribute="top" secondItem="1Ak-bR-NxW" secondAttribute="bottom" id="IXH-Ho-pOt"/>
+                        <constraint firstItem="DBo-Ls-SAS" firstAttribute="leading" secondItem="e7L-vW-ql4" secondAttribute="leading" constant="12" id="LBQ-sD-oKO"/>
+                        <constraint firstItem="HS1-wd-FKH" firstAttribute="leading" secondItem="e7L-vW-ql4" secondAttribute="leading" constant="22" id="Oqg-le-rlE"/>
+                        <constraint firstItem="oMz-t1-1wf" firstAttribute="top" secondItem="DBo-Ls-SAS" secondAttribute="bottom" constant="15" id="WeO-Xx-uGv"/>
+                        <constraint firstAttribute="trailing" secondItem="oMz-t1-1wf" secondAttribute="trailing" id="dZ0-JV-vzm"/>
+                        <constraint firstAttribute="trailing" secondItem="DBo-Ls-SAS" secondAttribute="trailing" constant="12" id="epF-hW-yqe"/>
+                        <constraint firstItem="1Ak-bR-NxW" firstAttribute="leading" secondItem="HS1-wd-FKH" secondAttribute="leading" id="mr7-32-g5k"/>
+                        <constraint firstAttribute="bottom" secondItem="oMz-t1-1wf" secondAttribute="bottom" id="nIS-0Y-kCK"/>
+                        <constraint firstItem="HS1-wd-FKH" firstAttribute="top" secondItem="e7L-vW-ql4" secondAttribute="top" constant="36" id="oHL-ts-Vbn"/>
+                        <constraint firstItem="oMz-t1-1wf" firstAttribute="leading" secondItem="e7L-vW-ql4" secondAttribute="leading" id="uDa-2g-SNP"/>
+                        <constraint firstItem="DBo-Ls-SAS" firstAttribute="top" secondItem="HS1-wd-FKH" secondAttribute="bottom" constant="45" id="xM9-50-F6p"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="TopcornerRadiu">
+                            <real key="value" value="16"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="e7L-vW-ql4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="6lI-ma-Oaz"/>
+                <constraint firstItem="e7L-vW-ql4" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="RCE-wR-C9K"/>
+                <constraint firstItem="e7L-vW-ql4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hhb-O0-eAj"/>
+                <constraint firstItem="e7L-vW-ql4" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="xZa-xB-Vxt"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="61.607142857142854"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

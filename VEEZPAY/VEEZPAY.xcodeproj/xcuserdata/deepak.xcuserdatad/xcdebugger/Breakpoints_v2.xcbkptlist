@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A7A1C6D-2260-4148-976A-5109056E33F8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF192772-6865-4055-95BF-F6722F0459E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DDA4BC1-B183-492A-9D45-67AFB88AAFC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3ABF8706-08BB-4940-9481-15AC645E1624"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "pageViewController(_:viewControllerAfter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C26D8EE9-E118-48FC-9BC1-5DEEA8A66F4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "pageViewController(_:viewControllerBefore:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C26D8EE9-E118-48FC-9BC1-5DEEA8A66F4C - e3967a9cb16ef759"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C26D8EE9-E118-48FC-9BC1-5DEEA8A66F4C - e3967a9cb16ef759"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "C26D8EE9-E118-48FC-9BC1-5DEEA8A66F4C - e3967a9cb16ef759"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "C26D8EE9-E118-48FC-9BC1-5DEEA8A66F4C - e3967a9cb16ef71f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48720C4D-B1E0-4606-B381-D7FD5BC055A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "48720C4D-B1E0-4606-B381-D7FD5BC055A3 - 32e0e7630748ac8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, didFinishAnimating: Swift.Bool, previousViewControllers: Swift.Array&lt;__C.UIViewController&gt;, transitionCompleted: Swift.Bool) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "48720C4D-B1E0-4606-B381-D7FD5BC055A3 - 32e0e7630748ac8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, didFinishAnimating: Swift.Bool, previousViewControllers: Swift.Array&lt;__C.UIViewController&gt;, transitionCompleted: Swift.Bool) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "460">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "306596DC-DFFA-4FD3-9ABB-0AB4F970B603"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "pageViewController(_:viewControllerBefore:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "306596DC-DFFA-4FD3-9ABB-0AB4F970B603 - e3967a9cb16ef77e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "306596DC-DFFA-4FD3-9ABB-0AB4F970B603 - e3967a9cb16ef77e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "306596DC-DFFA-4FD3-9ABB-0AB4F970B603 - e3967a9cb16ef77e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "306596DC-DFFA-4FD3-9ABB-0AB4F970B603 - e3967a9cb16ef73c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.ATCWalkthroughViewController.pageViewController(_: __C.UIPageViewController, viewControllerBefore: __C.UIViewController) -&gt; Swift.Optional&lt;__C.UIViewController&gt;"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9090A1AD-5726-4E30-B1C8-E647F7BF58E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "pageViewController(_:viewControllerBefore:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04A7544A-C67A-4297-A6D8-4BF1E6A5692D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/WalkthroughOnboarding/ATCWalkthroughViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "pageViewController(_:viewControllerAfter:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "997445AB-A160-499E-960A-3D6615BBBF9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "997445AB-A160-499E-960A-3D6615BBBF9A - 45ee1e76cbd4732c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.startTimer() -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "997445AB-A160-499E-960A-3D6615BBBF9A - 45ee1e76cbd473a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.startTimer() -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1CAC051-3A4F-4C6A-89FF-0293414058F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "startTimer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1CAC051-3A4F-4C6A-89FF-0293414058F9 - 45ee1e76cbd4732c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.startTimer() -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F1CAC051-3A4F-4C6A-89FF-0293414058F9 - 45ee1e76cbd473a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.startTimer() -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "scrollAutomatically(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf4696"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "620">
+               </Location>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf4696"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "676">
+               </Location>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf4976"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf4976"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf49f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "8A4CC1BE-DC0D-4E27-95C7-AA4670D2B5DF - 99d7c0ec5adf49f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2871A653-44B7-441F-9F94-0B3FFF160630"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "scrollAutomatically(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2871A653-44B7-441F-9F94-0B3FFF160630 - 99d7c0ec5adf4957"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+               <Location
+                  uuid = "2871A653-44B7-441F-9F94-0B3FFF160630 - 99d7c0ec5adf49d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VEEZPAY.HomeVC.scrollAutomatically(__C.NSTimer) -&gt; ()"
+                  moduleName = "VEEZPAY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deepak/Desktop/VEEZPAY/VEEZPAY/VEEZPAY/ViewController/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BAC702CC-8068-4DAC-BA9B-B01C170B134D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/AddToCartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCBB4D0A-7C37-421A-B3CE-28A0EABF6896"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VEEZPAY/ViewController/AddToCartVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

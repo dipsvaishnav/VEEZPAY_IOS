@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="UwZ-3E-fxj" customClass="ChatTimeHeader" customModule="VEEZPAY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tKs-tT-Kpl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="24"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today at 5:03 PM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0K-c9-0Rv">
+                            <rect key="frame" x="10" y="3.6666666666666661" width="355" height="17"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                            <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333730000001" green="0.94509804249999996" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="i0K-c9-0Rv" secondAttribute="trailing" constant="10" id="HpM-mi-0P6"/>
+                        <constraint firstItem="i0K-c9-0Rv" firstAttribute="centerY" secondItem="tKs-tT-Kpl" secondAttribute="centerY" id="UvG-3f-Ec8"/>
+                        <constraint firstItem="i0K-c9-0Rv" firstAttribute="leading" secondItem="tKs-tT-Kpl" secondAttribute="leading" constant="10" id="yYl-nm-ogZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="eYM-p9-dnD"/>
+            <color key="backgroundColor" red="0.93333333730000001" green="0.94509804249999996" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tKs-tT-Kpl" secondAttribute="trailing" id="Mef-oh-YOW"/>
+                <constraint firstItem="tKs-tT-Kpl" firstAttribute="leading" secondItem="UwZ-3E-fxj" secondAttribute="leading" id="jhh-JM-Vp6"/>
+                <constraint firstAttribute="bottom" secondItem="tKs-tT-Kpl" secondAttribute="bottom" id="qUU-D5-1Y2"/>
+                <constraint firstItem="tKs-tT-Kpl" firstAttribute="top" secondItem="UwZ-3E-fxj" secondAttribute="top" id="sSF-ZA-86m"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblTitle" destination="i0K-c9-0Rv" id="cxY-wx-JXl"/>
+            </connections>
+            <point key="canvasLocation" x="11.341463414634147" y="-91.525423728813564"/>
+        </view>
+    </objects>
+</document>

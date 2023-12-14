@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SplitPercentTVCell" rowHeight="62" id="bMa-5E-0VY" customClass="SplitPercentTVCell" customModule="VEEZPAY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bMa-5E-0VY" id="wMf-jH-9Rn">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mUK-8o-QeS">
+                        <rect key="frame" x="16" y="16" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="fcg-Lb-I56"/>
+                            <constraint firstAttribute="width" constant="24" id="v79-oy-6xe"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="checkmark.square.fill" catalog="system" symbolScale="large"/>
+                        </state>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="8Iv-B4-wd2">
+                        <rect key="frame" x="50" y="13" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="edM-Kc-YLp"/>
+                            <constraint firstAttribute="height" constant="30" id="lrG-c5-Izl"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuView">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Danny Rice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jr4-h6-rle">
+                        <rect key="frame" x="89.999999999999986" y="19.666666666666668" width="142.66666666666663" height="17.000000000000004"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="0.00  %" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="4MI-BD-3st">
+                        <rect key="frame" x="247.66666666666666" y="16.666666666666664" width="56.333333333333343" height="22.666666666666664"/>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4A-E0-UWA">
+                        <rect key="frame" x="247.66666666666666" y="38.333333333333336" width="56.333333333333343" height="1"/>
+                        <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="RKk-dH-BqX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4MI-BD-3st" firstAttribute="leading" secondItem="jr4-h6-rle" secondAttribute="trailing" constant="15" id="9QX-9j-Waf"/>
+                    <constraint firstItem="8Iv-B4-wd2" firstAttribute="leading" secondItem="mUK-8o-QeS" secondAttribute="trailing" constant="10" id="CtH-LW-2XG"/>
+                    <constraint firstItem="mUK-8o-QeS" firstAttribute="top" secondItem="wMf-jH-9Rn" secondAttribute="top" constant="16" id="D9I-Y7-BLq"/>
+                    <constraint firstItem="jr4-h6-rle" firstAttribute="centerY" secondItem="8Iv-B4-wd2" secondAttribute="centerY" id="F6a-ft-MBP"/>
+                    <constraint firstItem="B4A-E0-UWA" firstAttribute="leading" secondItem="4MI-BD-3st" secondAttribute="leading" id="PNN-iX-KK0"/>
+                    <constraint firstAttribute="trailing" secondItem="4MI-BD-3st" secondAttribute="trailing" constant="16" id="Ta4-C7-Bk3"/>
+                    <constraint firstItem="B4A-E0-UWA" firstAttribute="trailing" secondItem="4MI-BD-3st" secondAttribute="trailing" id="fHe-tl-Mxo"/>
+                    <constraint firstItem="mUK-8o-QeS" firstAttribute="leading" secondItem="wMf-jH-9Rn" secondAttribute="leading" constant="16" id="hw1-Qd-ap6"/>
+                    <constraint firstItem="jr4-h6-rle" firstAttribute="leading" secondItem="8Iv-B4-wd2" secondAttribute="trailing" constant="10" id="jf8-YZ-4eu"/>
+                    <constraint firstItem="8Iv-B4-wd2" firstAttribute="centerY" secondItem="mUK-8o-QeS" secondAttribute="centerY" id="n0O-9X-HeX"/>
+                    <constraint firstItem="4MI-BD-3st" firstAttribute="centerY" secondItem="8Iv-B4-wd2" secondAttribute="centerY" id="rOm-Be-qwj"/>
+                    <constraint firstItem="B4A-E0-UWA" firstAttribute="bottom" secondItem="4MI-BD-3st" secondAttribute="bottom" id="zn2-xg-vUa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="KsI-OH-q7K"/>
+            <point key="canvasLocation" x="62.595419847328245" y="-4.9295774647887329"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ProfileImage" width="162.66667175292969" height="170.66667175292969"/>
+        <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

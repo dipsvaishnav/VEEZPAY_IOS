@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="Cwt-RZ-hfK" customClass="SplitShareTVCell" customModule="VEEZPAY" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cwt-RZ-hfK" id="uZ2-G9-QFw">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILK-ov-9lf">
+                        <rect key="frame" x="16" y="16" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="Dgm-fg-a6q"/>
+                            <constraint firstAttribute="height" constant="24" id="kFG-Ff-dVr"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal">
+                            <imageReference key="image" image="checkmark.square.fill" catalog="system" symbolScale="large"/>
+                        </state>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="4PF-uh-OxY">
+                        <rect key="frame" x="50" y="13" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="7sw-Kl-hJD"/>
+                            <constraint firstAttribute="height" constant="30" id="WDU-ub-40r"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuView">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Danny Rice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPU-lk-4fm">
+                        <rect key="frame" x="90" y="13" width="113.33333333333331" height="17"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="₦ 8000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yoz-xg-wdc">
+                        <rect key="frame" x="90" y="32" width="36" height="14"/>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1K0-21-fBs">
+                        <rect key="frame" x="218.33333333333334" y="16" width="85.666666666666657" height="24"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="905-ec-rnm">
+                                <rect key="frame" x="0.0" y="0.0" width="85.666666666666671" height="24"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5p-R8-4u7">
+                                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="4fe-Qa-M5N"/>
+                                            <constraint firstAttribute="width" constant="24" id="7Ch-8v-D6c"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="minus.square" catalog="system"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A6-bX-3hf">
+                                        <rect key="frame" x="34" y="0.0" width="17.666666666666671" height="24"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwG-Yd-ScK">
+                                        <rect key="frame" x="61.666666666666657" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="8rn-61-B63"/>
+                                            <constraint firstAttribute="height" constant="24" id="kli-3j-opI"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="plus.app" catalog="system"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="905-ec-rnm" secondAttribute="bottom" id="4jF-eL-Xxn"/>
+                            <constraint firstAttribute="trailing" secondItem="905-ec-rnm" secondAttribute="trailing" id="A5l-y1-ap7"/>
+                            <constraint firstItem="905-ec-rnm" firstAttribute="top" secondItem="1K0-21-fBs" secondAttribute="top" id="DFK-fc-euz"/>
+                            <constraint firstAttribute="height" constant="24" id="GDP-0w-BOm"/>
+                            <constraint firstItem="905-ec-rnm" firstAttribute="leading" secondItem="1K0-21-fBs" secondAttribute="leading" id="dM9-yD-vFI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gPU-lk-4fm" firstAttribute="leading" secondItem="4PF-uh-OxY" secondAttribute="trailing" constant="10" id="6vT-hX-m8v"/>
+                    <constraint firstItem="Yoz-xg-wdc" firstAttribute="top" secondItem="gPU-lk-4fm" secondAttribute="bottom" constant="2" id="GHL-cb-iVG"/>
+                    <constraint firstItem="1K0-21-fBs" firstAttribute="centerY" secondItem="4PF-uh-OxY" secondAttribute="centerY" id="OyS-eU-ika"/>
+                    <constraint firstItem="4PF-uh-OxY" firstAttribute="leading" secondItem="ILK-ov-9lf" secondAttribute="trailing" constant="10" id="PYt-eQ-Iiz"/>
+                    <constraint firstItem="ILK-ov-9lf" firstAttribute="top" secondItem="uZ2-G9-QFw" secondAttribute="top" constant="16" id="REG-hI-pHA"/>
+                    <constraint firstItem="4PF-uh-OxY" firstAttribute="centerY" secondItem="ILK-ov-9lf" secondAttribute="centerY" id="Sfe-IU-ejR"/>
+                    <constraint firstAttribute="bottom" secondItem="Yoz-xg-wdc" secondAttribute="bottom" constant="15" id="bu7-tM-e7c"/>
+                    <constraint firstAttribute="trailing" secondItem="1K0-21-fBs" secondAttribute="trailing" constant="16" id="fLY-4s-OVf"/>
+                    <constraint firstItem="1K0-21-fBs" firstAttribute="leading" secondItem="gPU-lk-4fm" secondAttribute="trailing" constant="15" id="hiH-fn-HJc"/>
+                    <constraint firstItem="gPU-lk-4fm" firstAttribute="top" secondItem="4PF-uh-OxY" secondAttribute="top" id="oG4-r8-IUX"/>
+                    <constraint firstItem="Yoz-xg-wdc" firstAttribute="leading" secondItem="gPU-lk-4fm" secondAttribute="leading" id="ozv-tu-rhv"/>
+                    <constraint firstItem="ILK-ov-9lf" firstAttribute="leading" secondItem="uZ2-G9-QFw" secondAttribute="leading" constant="16" id="pDD-Pc-hbU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="SU4-4x-WxX"/>
+            <point key="canvasLocation" x="62.595419847328245" y="-4.9295774647887329"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ProfileImage" width="162.66667175292969" height="170.66667175292969"/>
+        <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
+        <image name="minus.square" catalog="system" width="128" height="114"/>
+        <image name="plus.app" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
